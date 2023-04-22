@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #00e1ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxgame.Level3">
+    <children>
+        <Rectangle fx:id="sq2" arcHeight="5.0" arcWidth="5.0" height="114.0" layoutX="-42.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="428.0" />
+        <Rectangle fx:id="sqEnd" arcHeight="5.0" arcWidth="5.0" fill="RED" height="86.0" layoutX="383.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="112.0" />
+        <Circle fx:id="player" fill="DODGERBLUE" layoutX="66.0" layoutY="540.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle fx:id="sq3" arcHeight="5.0" arcWidth="5.0" height="86.0" layoutX="-22.0" layoutY="192.0" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+        <Rectangle fx:id="sq4" arcHeight="5.0" arcWidth="5.0" height="32.0" layoutX="402.0" layoutY="213.0" stroke="BLACK" strokeType="INSIDE" width="508.0" />
+        <Rectangle fx:id="sq5" arcHeight="5.0" arcWidth="5.0" height="203.0" layoutX="459.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" width="459.0" />
+        <Rectangle fx:id="sq6" arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="-6.0" layoutY="263.0" stroke="BLACK" strokeType="INSIDE" width="446.0" />
+        <Rectangle fx:id="sq7" arcHeight="5.0" arcWidth="5.0" height="86.0" layoutX="-5.0" layoutY="109.0" stroke="BLACK" strokeType="INSIDE" width="434.0" />
+        <Rectangle fx:id="sq8" arcHeight="5.0" arcWidth="5.0" height="124.0" layoutX="448.0" layoutY="109.0" stroke="BLACK" strokeType="INSIDE" width="463.0" />
+      <Rectangle fx:id="sq9" arcHeight="5.0" arcWidth="5.0" height="86.0" layoutX="438.0" layoutY="308.0" stroke="BLACK" strokeType="INSIDE" width="424.0" />
+      <Rectangle fx:id="sq10" arcHeight="5.0" arcWidth="5.0" height="65.0" layoutX="97.0" layoutY="345.0" stroke="BLACK" strokeType="INSIDE" width="812.0" />
+      <Rectangle fx:id="sq11" arcHeight="5.0" arcWidth="5.0" height="33.0" layoutX="-2.0" layoutY="572.0" stroke="BLACK" strokeType="INSIDE" width="906.0" />
+      <Rectangle fx:id="sq12" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="783.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="135.0" />
+      <Rectangle fx:id="sq13" arcHeight="5.0" arcWidth="5.0" height="65.0" layoutX="-96.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="812.0" />
+      <Rectangle fx:id="sq14" arcHeight="5.0" arcWidth="5.0" height="310.0" layoutX="-5.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="sq21" arcHeight="5.0" arcWidth="5.0" height="114.0" layoutX="492.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="428.0" />
+      <Label layoutX="514.0" layoutY="78.0" prefHeight="28.0" prefWidth="64.0" text="Level 3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="sq211" arcHeight="5.0" arcWidth="5.0" height="114.0" layoutX="219.0" layoutY="-80.0" stroke="BLACK" strokeType="INSIDE" width="428.0" />
+    </children>
+</AnchorPane>

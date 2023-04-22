@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #00e1ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxgame.Level2">
+    <children>
+        <Rectangle fx:id="sq2" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="-42.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="942.0" />
+        <Rectangle fx:id="sqEnd" arcHeight="5.0" arcWidth="5.0" fill="RED" height="66.0" layoutX="15.0" layoutY="475.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+        <Circle fx:id="player" fill="DODGERBLUE" layoutX="840.0" layoutY="80.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="sq1" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="86.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" width="820.0" />
+      <Rectangle fx:id="sq3" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="-3.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="822.0" />
+      <Rectangle fx:id="sq4" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="88.0" layoutY="305.0" stroke="BLACK" strokeType="INSIDE" width="822.0" />
+      <Rectangle fx:id="sq5" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="-2.0" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="820.0" />
+      <Rectangle fx:id="sq6" arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="-6.0" layoutY="555.0" stroke="BLACK" strokeType="INSIDE" width="914.0" />
+      <Rectangle fx:id="sq7" arcHeight="5.0" arcWidth="5.0" height="388.0" layoutX="-5.0" layoutY="43.0" stroke="BLACK" strokeType="INSIDE" width="41.0" />
+      <Rectangle fx:id="sq8" arcHeight="5.0" arcWidth="5.0" height="429.0" layoutX="869.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="41.0" />
+    </children>
+</AnchorPane>
